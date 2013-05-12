@@ -11,3 +11,5 @@ public/404.html
 public/dispatch.fcgi
 public/dispatch.cgi
 Makefile.PL
+README.markdown
+LICENSE
