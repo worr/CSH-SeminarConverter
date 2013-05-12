@@ -12,10 +12,6 @@ use Try::Tiny;
 
 our $VERSION = '1.0';
 
-get '/' => sub {
-    template 'index';
-};
-
 post '/github' => sub {
     my $json = JSON::Any->new;
     my $params = $json->decode(param("payload"));
