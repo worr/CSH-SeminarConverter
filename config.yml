@@ -20,6 +20,8 @@ charset: "UTF-8"
 
 template: "simple"
 
+clone_path: "/users/u16/worr/public_html/"
+
 # template: "template_toolkit"
 # engines:
 #   template_toolkit:
